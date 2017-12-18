@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
-name: string //<-- added name property
+name: string; //<-- added name property
   constructor() {
     this.name = 'Daniel';
    }
